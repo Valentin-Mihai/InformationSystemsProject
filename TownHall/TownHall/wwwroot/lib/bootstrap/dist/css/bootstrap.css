@@ -17,7 +17,9 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+footer {
+    text-align:center;
+}
 header,
 hgroup,
 main,
@@ -4274,11 +4276,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+    float: left;
+    height: 55px;
+    padding: 15px 15px;
+    font-size: 35px;
+    line-height: 20px;
+    font-family: 'Lobster', cursive;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4323,7 +4326,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+    margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4594,9 +4597,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #222;
   border-color: #080808;
 }
-.navbar-inverse .navbar-brand {
-  color: #9d9d9d;
-}
+    .navbar-inverse .navbar-brand {
+        color: #337ab7;
+    }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #fff;
@@ -4605,12 +4608,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-text {
   color: #9d9d9d;
 }
-.navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
-}
+    .navbar-inverse .navbar-nav > li > a {
+        color: #9d9d9d;
+        font-size: 17px;
+    }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #5fa0d2;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,

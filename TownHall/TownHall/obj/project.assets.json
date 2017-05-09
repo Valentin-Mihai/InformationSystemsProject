@@ -8663,15 +8663,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miky\\.nuget\\packages\\": {}
+    "C:\\Users\\Andrei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miky\\Documents\\Visual Studio 2017\\Projects\\TownHall\\TownHall\\TownHall.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\TownHall\\TownHall\\TownHall.csproj",
       "projectName": "TownHall",
-      "projectPath": "C:\\Users\\Miky\\Documents\\Visual Studio 2017\\Projects\\TownHall\\TownHall\\TownHall.csproj",
-      "outputPath": "C:\\Users\\Miky\\Documents\\Visual Studio 2017\\Projects\\TownHall\\TownHall\\obj\\",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\TownHall\\TownHall\\TownHall.csproj",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\TownHall\\TownHall\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "net452"
