@@ -1,37 +1,46 @@
 ﻿using Microsoft.Extensions.Options;
-using SendGrid;
-using SendGrid.Helpers.Mail;
+using System.Net;
+using System.Net.Mail;
+
 using System.Threading.Tasks;
 
 namespace TownHall.Services
 {
     public class AuthMessageSender : IEmailSender, ISmsSender
     {
-        public AuthMessageSender(IOptions<AuthMessageSenderOptions> optionsAccessor)
-        {
-            Options = optionsAccessor.Value;
-        }
-
-        public AuthMessageSenderOptions Options { get; } //set only via Secret Manager
         public Task SendEmailAsync(string email, string subject, string message)
         {
             // Plug in your email service here to send an email.
-            Execute(Options.SendGridKey, subject, message, email).Wait();
+            Execute(subject, message, email).Wait();
             return Task.FromResult(0);
         }
 
-        public async Task Execute(string apiKey, string subject, string message, string email)
+        public async Task Execute( string subject, string message, string email)
         {
-            var client = new SendGridClient(apiKey);
-            var msg = new SendGridMessage()
+            var fromAddress = new MailAddress("townhallproject2017@gmail.com", "TownHall Project");
+            var toAddress = new MailAddress(email, "To Name");
+            const string fromPassword = "parolatownhallproject2017";
+            //const string subject = "Subject";
+            //onst string body = "Body";
+
+            var smtp = new SmtpClient
             {
-                From = new EmailAddress("User@TownHall.com", "User"),
-                Subject = subject,
-                PlainTextContent = message,
-                HtmlContent = message
+                Host = "smtp.gmail.com",
+                Port = 587,
+                EnableSsl = true,
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
             };
-            msg.AddTo(new EmailAddress(email));
-            var response = await client.SendEmailAsync(msg);
+
+            using (var emailmessage = new MailMessage(fromAddress, toAddress)
+            {
+                Subject = subject,
+                Body = message
+            })
+            {
+                await smtp.SendMailAsync(emailmessage);
+            }
         }
 
         public Task SendSmsAsync(string number, string message)

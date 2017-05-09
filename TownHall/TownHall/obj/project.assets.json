@@ -2,6 +2,15 @@
   "version": 2,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
+      "EASendMail/7.3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EASendMail45.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EASendMail45.dll": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -2256,6 +2265,15 @@
       }
     },
     ".NETFramework,Version=v4.5.2/win7-x86": {
+      "EASendMail/7.3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EASendMail45.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EASendMail45.dll": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -4470,6 +4488,22 @@
     }
   },
   "libraries": {
+    "EASendMail/7.3.1.2": {
+      "sha512": "GKAN6FgMaEQXM6l9RVIum8H9siy9hXsp9UwTI2kAruRDmiVfhE4+BIeWzOMsqorEhE9DHrNEqLEvnM/oJ4fVKA==",
+      "type": "package",
+      "path": "easendmail/7.3.1.2",
+      "files": [
+        "easendmail.7.3.1.2.nupkg.sha512",
+        "easendmail.nuspec",
+        "lib/net11/EASendMail.dll",
+        "lib/net20/EASendMail20.dll",
+        "lib/net35/EASendMail35.dll",
+        "lib/net40/EASendMail40.dll",
+        "lib/net45/EASendMail45.dll",
+        "lib/uap10.0/EASendMailRT.winmd",
+        "tools/install.ps1"
+      ]
+    },
     "Libuv/1.9.1": {
       "sha512": "uqX2Frwf9PW8MaY7PRNY6HM5BpW1D8oj1EdqzrmbEFD5nH63Yat3aEjN/tws6Tw6Fk7LwmLBvtUh32tTeTaHiA==",
       "type": "package",
@@ -8609,6 +8643,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
+      "EASendMail >= 7.3.1.2",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Authentication.Cookies >= 1.1.1",
@@ -8633,10 +8668,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miky\\documents\\visual studio 2017\\Projects\\TownHall\\TownHall\\TownHall.csproj",
+      "projectUniqueName": "C:\\Users\\Miky\\Documents\\Visual Studio 2017\\Projects\\TownHall\\TownHall\\TownHall.csproj",
       "projectName": "TownHall",
-      "projectPath": "C:\\Users\\Miky\\documents\\visual studio 2017\\Projects\\TownHall\\TownHall\\TownHall.csproj",
-      "outputPath": "C:\\Users\\Miky\\documents\\visual studio 2017\\Projects\\TownHall\\TownHall\\obj\\",
+      "projectPath": "C:\\Users\\Miky\\Documents\\Visual Studio 2017\\Projects\\TownHall\\TownHall\\TownHall.csproj",
+      "outputPath": "C:\\Users\\Miky\\Documents\\Visual Studio 2017\\Projects\\TownHall\\TownHall\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "net452"
@@ -8670,6 +8705,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "1.1.0"
+          },
+          "EASendMail": {
+            "target": "Package",
+            "version": "7.3.1.2"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "suppressParent": "All",

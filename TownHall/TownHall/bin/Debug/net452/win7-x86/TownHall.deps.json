@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETFramework,Version=v4.5.2/win7-x86",
-    "signature": "049f5d7e7c0f2ed94000123c07accef30f11b6af"
+    "signature": "6e7d8d888e88356b28a5ff1bb1f98e8a1afdd400"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETFramework,Version=v4.5.2": {
       "townhall/1.0.0": {
         "dependencies": {
+          "EASendMail": "7.3.1.2",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.1",
           "Microsoft.AspNetCore.Authentication.Cookies": "1.1.1",
@@ -387,6 +388,11 @@
       "system.xml.xmlserializer/0.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/Facades/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "easendmail/7.3.1.2": {
+        "compile": {
+          "lib/net45/EASendMail45.dll": {}
         }
       },
       "libuv/1.9.1": {
@@ -1701,6 +1707,7 @@
     ".NETFramework,Version=v4.5.2/win7-x86": {
       "townhall/1.0.0": {
         "dependencies": {
+          "EASendMail": "7.3.1.2",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.1",
           "Microsoft.AspNetCore.Authentication.Cookies": "1.1.1",
@@ -1720,6 +1727,11 @@
         },
         "runtime": {
           "TownHall.exe": {}
+        }
+      },
+      "easendmail/7.3.1.2": {
+        "runtime": {
+          "lib/net45/EASendMail45.dll": {}
         }
       },
       "libuv/1.9.1": {
@@ -3040,6 +3052,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "easendmail/7.3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GKAN6FgMaEQXM6l9RVIum8H9siy9hXsp9UwTI2kAruRDmiVfhE4+BIeWzOMsqorEhE9DHrNEqLEvnM/oJ4fVKA==",
+      "path": "easendmail/7.3.1.2",
+      "hashPath": "easendmail.7.3.1.2.nupkg.sha512"
     },
     "libuv/1.9.1": {
       "type": "package",

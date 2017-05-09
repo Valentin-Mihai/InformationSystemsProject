@@ -15,7 +15,21 @@ namespace TownHall.Controllers
 
         public IActionResult Chart()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your application chart page.";
+
+            return View();
+        }
+
+        public IActionResult Chat()
+        {
+            ViewData["Message"] = "Your application chat page.";
+
+            return View();
+        }
+
+        public IActionResult Documents()
+        {
+            ViewData["Message"] = "Your application documents page.";
 
             return View();
         }
