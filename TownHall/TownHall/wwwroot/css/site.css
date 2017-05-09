@@ -1,11 +1,13 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url("../images/4.jpg");
+    background-size: cover;
+    font-family: 'Palanquin', sans-serif;
 }
-
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
+    /* Wrapping element */
+    /* Set some basic padding to keep content from hitting the edges */
+    .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -19,9 +21,9 @@ textarea {
 
 /* Carousel */
 .carousel-caption p {
-    color: #fff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 30px;
+    color: #4d4d4d;
+    text-shadow: -5px 0 5px white, 0 5px 5px white, 5px 0 5px white, 0 -5px 5px white;
+    font-size: 35px;
     line-height: 1.4;
 }
 

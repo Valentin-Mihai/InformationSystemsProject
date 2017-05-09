@@ -18,10 +18,8 @@ namespace TownHall.Services
         public async Task Execute( string subject, string message, string email)
         {
             var fromAddress = new MailAddress("townhallproject2017@gmail.com", "TownHall Project");
-            var toAddress = new MailAddress(email, "To Name");
+            var toAddress = new MailAddress(email);
             const string fromPassword = "parolatownhallproject2017";
-            //const string subject = "Subject";
-            //onst string body = "Body";
 
             var smtp = new SmtpClient
             {
