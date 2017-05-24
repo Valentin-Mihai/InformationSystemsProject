@@ -26,3 +26,6 @@ namespace TownHall.Data
         public DbSet<TownHall.Models.ApplicationUser> ApplicationUser { get; set; }
     }
 }
+
+
+
