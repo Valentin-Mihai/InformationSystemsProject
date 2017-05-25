@@ -1,0 +1,138 @@
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\csc.exe
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\System.Collections.Immutable.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\vbc.exe
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\VBCSCompiler.exe
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\roslyn\VBCSCompiler.exe.config
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\TownHall.dll.config
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\TownHall.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\TownHall.pdb
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Antlr3.Runtime.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\EntityFramework.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\EntityFramework.SqlServer.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Google.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Web.Infrastructure.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Newtonsoft.Json.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Owin.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Helpers.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Mvc.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Optimization.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Razor.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.WebPages.Deployment.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.WebPages.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.WebPages.Razor.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\WebGrease.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Helpers.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Mvc.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Optimization.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.Razor.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.WebPages.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.WebPages.Deployment.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\System.Web.WebPages.Razor.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Antlr3.Runtime.pdb
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Newtonsoft.Json.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\EntityFramework.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\EntityFramework.SqlServer.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Google.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\obj\Debug\TownHall.csprojResolveAssemblyReference.cache
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\obj\Debug\TownHall.dll
+c:\users\miky\documents\visual studio 2015\Projects\TownHall\TownHall\obj\Debug\TownHall.pdb
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\csc.exe
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\vbc.exe
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\TownHall.dll.config
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\TownHall.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\TownHall.pdb
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Antlr3.Runtime.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\EntityFramework.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\EntityFramework.SqlServer.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Newtonsoft.Json.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Owin.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Helpers.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Mvc.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Optimization.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Razor.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.WebPages.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\WebGrease.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Helpers.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Mvc.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Optimization.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.Razor.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.WebPages.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Antlr3.Runtime.pdb
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Newtonsoft.Json.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\EntityFramework.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\EntityFramework.SqlServer.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\TownHall.csprojResolveAssemblyReference.cache
+C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\TownHall.dll
+C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\TownHall.pdb

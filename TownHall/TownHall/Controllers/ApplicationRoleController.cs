@@ -7,9 +7,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TownHall.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class ApplicationRoleController : Controller
     {
         private readonly RoleManager<ApplicationRole> roleManager;
@@ -95,7 +97,7 @@ namespace TownHall.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteApplicationRole(string id, FormCollection form)
+        public async Task<IActionResult> DeleteApplicationRole(string id, IFormCollection form)
         {
             if(!String.IsNullOrEmpty(id))
             {

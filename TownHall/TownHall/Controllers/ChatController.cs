@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TownHall.Controllers
 {
+    [Authorize]
     public class ChatController : Controller
     {
         [HttpGet]

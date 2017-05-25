@@ -1,0 +1,12 @@
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\TownHall_Test.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\TownHall_Test.pdb
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\obj\Debug\TownHall_Test.csprojResolveAssemblyReference.cache
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\obj\Debug\TownHall_Test.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall_Test\obj\Debug\TownHall_Test.pdb
