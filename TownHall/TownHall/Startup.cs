@@ -43,14 +43,17 @@ namespace TownHall
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-                  services.AddIdentity<ApplicationUser, IdentityRole>(config =>
-                  {
-                      config.SignIn.RequireConfirmedEmail = true;
-                  })
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
+                services.AddIdentity<ApplicationUser, ApplicationRole>(config =>
+                {
+                    config.SignIn.RequireConfirmedEmail = true;
+                })
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
 
             services.AddMvc();
+            /*services.AddIdentity<ApplicationUser, ApplicationRole>()
+              .AddEntityFrameworkStores<ApplicationDbContext>()
+              .AddDefaultTokenProviders();*/
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -79,6 +82,9 @@ namespace TownHall
 
             app.UseIdentity();
 
+            app.UseWebSockets();
+            app.UseMiddleware<ChatWebSocketMiddleware>();
+
             // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
 
             app.UseMvc(routes =>
@@ -87,6 +93,8 @@ namespace TownHall
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            
         }
     }
 }
