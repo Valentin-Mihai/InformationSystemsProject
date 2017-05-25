@@ -129,12 +129,10 @@ c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\bin\Debug\
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\bin\Debug\net452\win7-x86\System.Runtime.InteropServices.RuntimeInformation.dll
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\bin\Debug\net452\win7-x86\System.Text.Encodings.Web.dll
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\bin\Debug\net452\win7-x86\System.Threading.Tasks.Extensions.dll
-c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.csprojResolveAssemblyReference.cache
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.csproj.TownHall.exe.config
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.AssemblyInfo.cs
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.exe
 c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.pdb
-c:\users\miky\documents\visual studio 2017\Projects\TownHall\TownHall\bin\Debug\net452\win7-x86\SendGrid.dll
 D:\TownHall\TownHall\bin\Debug\net452\win7-x86\TownHall.exe.config
 D:\TownHall\TownHall\bin\Debug\net452\win7-x86\TownHall.deps.json
 D:\TownHall\TownHall\bin\Debug\net452\win7-x86\TownHall.runtimeconfig.json
@@ -273,8 +271,6 @@ D:\TownHall\TownHall\obj\Debug\net452\win7-x86\UserSecretsAssemblyInfo.cs
 D:\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.AssemblyInfo.cs
 D:\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.exe
 D:\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.pdb
-C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall\bin\Debug\net452\win7-x86\EASendMail45.dll
-C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\UserSecretsAssemblyInfo.cs
 C:\Users\Alexandra\Desktop\TownHall\TownHall\bin\Debug\net452\win7-x86\TownHall.exe.config
 C:\Users\Alexandra\Desktop\TownHall\TownHall\bin\Debug\net452\win7-x86\TownHall.deps.json
 C:\Users\Alexandra\Desktop\TownHall\TownHall\bin\Debug\net452\win7-x86\TownHall.runtimeconfig.json
@@ -553,3 +549,6 @@ C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\net452\win7-x86\UserSecretsA
 C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.AssemblyInfo.cs
 C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.exe
 C:\Users\Andrei\Desktop\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.pdb
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\TownHall.csprojResolveAssemblyReference.cache
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall\bin\Debug\net452\win7-x86\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\Miky\Documents\Visual Studio 2017\Projects\TownHall\TownHall\obj\Debug\net452\win7-x86\UserSecretsAssemblyInfo.cs
