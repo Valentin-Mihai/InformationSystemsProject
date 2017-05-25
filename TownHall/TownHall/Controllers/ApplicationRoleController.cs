@@ -1,11 +1,12 @@
+﻿using TownHall.Data;
 using TownHall.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System;
-using Microsoft.AspNetCore.Http;
 
 namespace TownHall.Controllers
 {
@@ -22,16 +23,22 @@ namespace TownHall.Controllers
         public IActionResult Index()
         {
             List<ApplicationRoleListViewModel> model = new List<ApplicationRoleListViewModel>();
-            model = roleManager.Roles.Select(r => new ApplicationRoleListViewModel
+            model = roleManager.Roles.Select(r => new
             {
                 RoleName = r.Name,
                 Id = r.Id,
                 Description = r.Description,
                 NumberOfUsers = r.Users.Count
+            }).ToList()
+            .Select(r => new ApplicationRoleListViewModel
+            {
+                RoleName = r.RoleName,
+                Id = r.Id,
+                Description = r.Description,
+                NumberOfUsers = r.NumberOfUsers
             }).ToList();
             return View(model);
         }
-
         [HttpGet]
         public async Task<IActionResult> AddEditApplicationRole(string id)
         {
@@ -48,7 +55,6 @@ namespace TownHall.Controllers
             }
             return PartialView("_AddEditApplicationRole", model);
         }
-
         [HttpPost]
         public async Task<IActionResult> AddEditApplicationRole(string id, ApplicationRoleViewModel model)
         {
@@ -57,13 +63,13 @@ namespace TownHall.Controllers
                 bool isExist = !String.IsNullOrEmpty(id);
                 ApplicationRole applicationRole = isExist ? await roleManager.FindByIdAsync(id) :
                new ApplicationRole
-               {
-                   CreatedDate = DateTime.UtcNow
+               {                   
+                   CreatedDate = DateTime.UtcNow                   
                };
                 applicationRole.Name = model.RoleName;
                 applicationRole.Description = model.Description;
                 applicationRole.IPAddress = Request.HttpContext.Connection.RemoteIpAddress.ToString();
-                IdentityResult roleRuslt = isExist ? await roleManager.UpdateAsync(applicationRole)
+                IdentityResult roleRuslt = isExist?  await roleManager.UpdateAsync(applicationRole)
                                                     : await roleManager.CreateAsync(applicationRole);
                 if (roleRuslt.Succeeded)
                 {
@@ -91,7 +97,7 @@ namespace TownHall.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteApplicationRole(string id, FormCollection form)
         {
-            if (!String.IsNullOrEmpty(id))
+            if(!String.IsNullOrEmpty(id))
             {
                 ApplicationRole applicationRole = await roleManager.FindByIdAsync(id);
                 if (applicationRole != null)
@@ -102,7 +108,7 @@ namespace TownHall.Controllers
                         return RedirectToAction("Index");
                     }
                 }
-            }
+                }
             return View();
         }
     }

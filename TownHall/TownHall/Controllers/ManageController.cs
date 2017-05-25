@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using TownHall.Models;
+using TownHall.Data;
 using TownHall.Models.ManageViewModels;
 using TownHall.Services;
 

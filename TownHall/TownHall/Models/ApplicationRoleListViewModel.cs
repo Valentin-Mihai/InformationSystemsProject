@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace TownHall.Models
+﻿namespace TownHall.Models
 {
     public class ApplicationRoleListViewModel
     {
@@ -12,5 +7,4 @@ namespace TownHall.Models
         public string Description { get; set; }
         public int NumberOfUsers { get; set; }
     }
-
 }

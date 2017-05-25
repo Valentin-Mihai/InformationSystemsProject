@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using TownHall.Models;
+
 
 namespace TownHall.Data
 {
@@ -23,7 +23,8 @@ namespace TownHall.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
-        public DbSet<TownHall.Models.ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<TownHall.Data.ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<TownHall.Data.ApplicationRole> ApplicationRole { get; set; }
     }
 }
 

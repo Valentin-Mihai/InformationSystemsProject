@@ -71,6 +71,10 @@ namespace TownHall.Controllers
                         }
                     }
                 }
+                else
+                {
+                    // TODO: We need to pass back an error message to the UI showing result.Errors
+                }
             }
             return View(model);
         }
@@ -79,6 +83,7 @@ namespace TownHall.Controllers
         public async Task<IActionResult> EditUser(string id)
         {
             EditUserViewModel model = new EditUserViewModel();
+            ApplicationUser user = new ApplicationUser();
             model.ApplicationRoles = roleManager.Roles.Select(r => new SelectListItem
             {
                 Text = r.Name,
@@ -87,7 +92,7 @@ namespace TownHall.Controllers
 
             if (!String.IsNullOrEmpty(id))
             {
-                ApplicationUser user = await userManager.FindByIdAsync(id);
+                user = await userManager.FindByIdAsync(id);
                 if (user != null)
                 {
                     model.Name = user.Name;
@@ -95,6 +100,16 @@ namespace TownHall.Controllers
                     model.ApplicationRoleId = roleManager.Roles.Single(r => r.Name == userManager.GetRolesAsync(user).Result.Single()).Id;
                 }
             }
+            // model.ApplicationRoleId = roleManager.Roles.Single(r => r.Name == userManager.GetRolesAsync(user).Result.Single()).Id;
+            //If a user does not have a Role, then give them the "No access" role
+            if (userManager.GetRolesAsync(user).Result.Count == 0)
+            {
+                model.ApplicationRoleId = "ee90b219-0dcc-4b37-920b-8170c61842f5";
+            }
+            else
+            {
+                model.ApplicationRoleId = roleManager.Roles.Single(r => r.Name == userManager.GetRolesAsync(user).Result.Single()).Id;
+            };
             return PartialView("_EditUser", model);
         }
 
@@ -158,7 +173,7 @@ namespace TownHall.Controllers
                 ApplicationUser applicationUser = await userManager.FindByIdAsync(id);
                 if (applicationUser != null)
                 {
-                    IdentityResult result = await userManager.DeleteAsync(applicationUser);
+                    IdentityResult result = await userManager.DeleteAsync(applicationUser); 
                     if (result.Succeeded)
                     {
                         return RedirectToAction("Index");

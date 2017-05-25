@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using TownHall.Models;
+using TownHall.Data;
 using TownHall.Models.AccountViewModels;
 using TownHall.Services;
 

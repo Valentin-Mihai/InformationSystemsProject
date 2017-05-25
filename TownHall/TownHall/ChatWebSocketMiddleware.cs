@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNetCoreChatRoom
+namespace TownHall
 {
     public class ChatWebSocketMiddleware
     {
@@ -19,7 +19,7 @@ namespace AspNetCoreChatRoom
         {
             _next = next;
         }
-
+        
         public async Task Invoke(HttpContext context)
         {
             if (!context.WebSockets.IsWebSocketRequest)
