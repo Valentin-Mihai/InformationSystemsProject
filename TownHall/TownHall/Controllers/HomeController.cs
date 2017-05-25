@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TownHall.Controllers
 {
@@ -27,7 +28,7 @@ namespace TownHall.Controllers
 
             return View();
         }
-
+        [Authorize]
         public IActionResult Documents()
         {
             ViewData["Message"] = "Your application documents page.";

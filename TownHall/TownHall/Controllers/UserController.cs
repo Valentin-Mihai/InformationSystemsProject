@@ -8,9 +8,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TownHall.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class UserController : Controller
     {
         private readonly UserManager<ApplicationUser> userManager;
@@ -114,11 +116,12 @@ namespace TownHall.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditUser(string id, EditUserViewModel model)
+        public async Task<IActionResult> EditUser(EditUserViewModel model)
         {
+            
             if (ModelState.IsValid)
             {
-                ApplicationUser user = await userManager.FindByIdAsync(id);
+                ApplicationUser user = await userManager.FindByIdAsync(model.Id);
                 if (user != null)
                 {
                     user.Name = model.Name;
@@ -166,7 +169,7 @@ namespace TownHall.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteUser(string id, FormCollection form)
+        public async Task<IActionResult> DeleteUser(string id, IFormCollection form)
         {
             if (!String.IsNullOrEmpty(id))
             {
